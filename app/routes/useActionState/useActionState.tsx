@@ -20,7 +20,7 @@ export default function UseActionState() {
    * useActionStateの第1引数には実行する関数、第2引数には初期値を渡す
    * 非同期処理トランザクションは開始同時にisPendingがtrueになる
    * トランザクションが終了するとisPendingがfalseになる
-   * useActionStateを経由した関数はformActionをで実行することを想定して作っているのでonClick、onSubmitなどでは動作しない
+   * useActionStateを経由した関数はformActionまたはactionをで実行することを想定して作っているのでonClick、onSubmitなどでは動作しない
    * new FormDataを使用すると動きはするがエラーが発生するのでformActionを使用するのがベター
    * 関数の実行が完了するとレンダリングが行われてstateがUIに反映される
    * React Server Componentsをサーポートするフレームワークで使用する場合、クライアントのJavaScriptが実行される前にフォームを操作可能にすることができる
