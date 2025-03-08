@@ -9,5 +9,6 @@ export default [
     'display-structured-information',
     'routes/useActionState/displayStructuredInformation.tsx'
   ),
-  route('use-form-status', 'routes/useFormStatus/useFormStatus.tsx')
+  route('use-form-status', 'routes/useFormStatus/useFormStatus.tsx'),
+  route('use-optimistic', 'routes/useOptimistic/useOptimistic.tsx')
 ] satisfies RouteConfig
