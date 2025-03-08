@@ -8,5 +8,6 @@ export default [
   route(
     'display-structured-information',
     'routes/useActionState/displayStructuredInformation.tsx'
-  )
+  ),
+  route('use-form-status', 'routes/useFormStatus/useFormStatus.tsx')
 ] satisfies RouteConfig
