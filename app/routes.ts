@@ -12,5 +12,6 @@ export default [
   route('use-form-status', 'routes/useFormStatus/useFormStatus.tsx'),
   route('use-optimistic', 'routes/useOptimistic/useOptimistic.tsx'),
   route('use', 'routes/use/use.tsx'),
-  route('ref', 'routes/ref/ref.tsx')
+  route('ref', 'routes/ref/ref.tsx'),
+  route('context', 'routes/context/context.tsx')
 ] satisfies RouteConfig
