@@ -13,5 +13,6 @@ export default [
   route('use-optimistic', 'routes/useOptimistic/useOptimistic.tsx'),
   route('use', 'routes/use/use.tsx'),
   route('ref', 'routes/ref/ref.tsx'),
+  route('ref-cleanup', 'routes/ref/refCleanup.tsx'),
   route('context', 'routes/context/context.tsx')
 ] satisfies RouteConfig
